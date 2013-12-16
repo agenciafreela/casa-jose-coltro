@@ -1,0 +1,126 @@
+html,body{
+    height: 100%;
+}
+body{
+    background: #F9F8E6;
+    font-family: 'Marvel', sans-serif;
+    color: #fff;
+}
+a{
+   color: #fff; 
+}
+.text-center{
+    text-align: center;
+}
+.clear{
+    clear: both;
+}
+.pull-left{
+    float: left;
+}
+.pull-right{
+    float: right;
+}
+#video{
+    margin: auto;
+    max-width: 600px
+}
+.video-wrapper{
+    height: 0;
+    padding-bottom: 56.25%;
+    position: relative;
+    width: 100%;
+}
+.video-wrapper iframe{
+    left: 0;
+    height: 100%;
+    position: absolute;
+    top:0;
+    width: 100%;
+}
+#wrap{
+    min-height: 100%;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+#fundo{
+    left: 0;
+    position: absolute;
+    top:0;
+    height: 100%;
+    width: 100%;
+}
+.fundo{
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+}
+#f_0{
+    height: 100px;
+}
+#f_1{
+    background-image: url(../img/f/f_01.png);
+    height: 122px;
+}
+#f_2{
+    background-image: url(../img/f/f_02.png);
+    height: 276px;
+}
+#f_3{
+    background-image: url(../img/f/f_03.png);
+    height: 352px;
+}
+#f_4{
+    background-image: url(../img/f/f_04.jpg);
+    height: 314px;
+}
+#f_5{
+    background-image: url(../img/f/f_05.jpg);
+    height: 274px;
+}
+#f_6{
+    background-image: url(../img/f/f_06.jpg);
+    height: 162px;
+}
+#container{
+    max-width: 600px;
+    margin: auto;
+    position: relative;
+}
+.logo{
+    margin-top: 70px;
+    padding:20px 0 ;
+    position: relative;
+}
+.down-ppt{
+    bottom: 5px;
+    color: #46a748;
+    position: absolute;
+    right: 5px;
+}
+#footer{
+    margin-top: 50px;
+}
+#footer .emblema{
+    position: absolute;
+    top:0;
+    left: 0;
+}
+#footer .address{
+    position: relative;
+    text-align: center;
+}
+#footer .address address{
+    font-size: 1.2em;
+    font-style: normal;
+    width: 100%;
+}
+@media(max-width: 585px){
+    #footer .address address{
+        text-shadow: 1px 1px 3px #000;
+        position: relative;
+    } 
+    #footer .address address a{
+        text-shadow: 1px 1px 3px #000;
+    }
+}
